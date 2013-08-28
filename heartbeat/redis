@@ -534,6 +534,7 @@ promote)        redis_promote;;
 demote)         redis_demote;;
 notify)             redis_notify;;
 validate-all)   ;;
+meta-data)	meta_data;;
 *)             usage
                 exit $OCF_ERR_UNIMPLEMENTED
                 ;;
